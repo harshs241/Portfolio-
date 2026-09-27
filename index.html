@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2306b6d4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 2 7 12 12 22 7 12 2'/><polyline points='2 17 12 22 22 17'/><polyline points='2 12 12 17 22 12'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh Singh | Full Stack Software Developer</title>
+    <meta name="description" content="Portfolio of Harsh Singh, a Software Developer building fast, scalable, and user-friendly web applications with React, Next.js, TypeScript, Node.js, and Cloud architectures." />
+    <meta name="keywords" content="Software Developer, Full Stack Engineer, React, Next.js, TypeScript, Node.js, Python, Web Development, Portfolio" />
+    <meta name="author" content="Harsh Singh" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Harsh Singh | Full Stack Software Developer" />
+    <meta property="og:description" content="Building fast, scalable, and user-friendly web applications." />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Harsh Singh | Full Stack Software Developer" />
+    <meta name="twitter:description" content="Building fast, scalable, and user-friendly web applications." />
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Anti-FOUC Theme Script -->
+    <script>
+      (function() {
+        try {
+          const savedTheme = localStorage.getItem('portfolio-theme');
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text antialiased selection:bg-brand-500 selection:text-white transition-colors duration-300 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
