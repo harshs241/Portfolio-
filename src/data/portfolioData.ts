@@ -19,7 +19,7 @@ export const personalInfo = {
     { label: 'Code Commits', value: '1.4k+' },
   ],
   email: 'harsh.singh.engineer@gmail.com',
-  location: 'San Francisco, CA / Open to Remote',
+  location: 'Mumbai, India / Open to Remote',
   resumeUrl: '#resume',
 };
 
