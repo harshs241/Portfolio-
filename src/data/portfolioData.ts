@@ -4,9 +4,6 @@ export const personalInfo = {
   name: 'Harsh Singh',
   titles: [
     'Full Stack Developer',
-    'Software Engineer',
-    'Frontend Specialist',
-    'Cloud & DevOps Enthusiast',
   ],
   status: 'Available for full-time opportunities & high-impact projects',
   tagline: 'I build fast, scalable, and user-friendly web applications',
@@ -214,7 +211,7 @@ export const experiences: Experience[] = [
     role: 'Full Stack Software Engineer',
     company: 'Apex Cloud Technologies',
     companyUrl: 'https://example.com',
-    location: 'San Francisco, CA',
+    location: 'Mumbai, India (Remote)',
     period: '2023 — Present',
     isCurrent: true,
     achievements: [
@@ -230,7 +227,7 @@ export const experiences: Experience[] = [
     role: 'Software Developer',
     company: 'InnoLab Solutions',
     companyUrl: 'https://example.com',
-    location: 'Austin, TX (Remote)',
+    location: 'Mumbai, India (Remote)',
     period: '2021 — 2023',
     achievements: [
       'Designed and deployed 15+ RESTful and GraphQL endpoints consumed by web and mobile client applications.',
@@ -245,7 +242,7 @@ export const experiences: Experience[] = [
     role: 'Software Engineering Intern',
     company: 'TechVentures Studio',
     companyUrl: 'https://example.com',
-    location: 'San Jose, CA',
+    location: 'Mumbai, India (Remote)',
     period: '2020 — 2021',
     achievements: [
       'Built and documented 20+ responsive and accessible UI components for the enterprise design system.',
@@ -261,7 +258,7 @@ export const educations: Education[] = [
     id: 'edu-1',
     degree: 'Bachelor of Science in Computer Science',
     institution: 'State University of Technology',
-    location: 'California, USA',
+    location: 'Mumbai, India',
     period: '2017 — 2021',
     gpa: '3.85 / 4.0 (Magna Cum Laude)',
     coursework: [
